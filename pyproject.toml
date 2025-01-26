@@ -5,7 +5,8 @@ description = "A django library for input filters"
 authors = ["Denis Podshivalov <denpodshivalov091@gmail.com>"]
 readme = "README.md"
 license = "MIT"
-
+repository = "https://github.com/depis13/django-input-filter"
+homepage = "https://github.com/depis13/django-input-filter"
 
 [tool.poetry.dependencies]
 python = ">=3.6"
