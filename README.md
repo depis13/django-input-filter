@@ -37,6 +37,7 @@ class NameContainsInputFilter(InputFilter):
             return queryset
         return queryset.filter(name__icontains=term)
 ```
+
 ```python
 @admin.register(ModelName)
 class ModelNameAdmin(admin.ModelAdmin):
@@ -46,3 +47,7 @@ class ModelNameAdmin(admin.ModelAdmin):
         NameContainsInputFilter
     )
 ```
+
+## How the Filter Looks
+
+![Input Filter Screenshot](screen.png)
