@@ -2,7 +2,7 @@ from django.contrib import admin
 
 
 class InputFilter(admin.SimpleListFilter):
-    template = "templates/input_filter.html"
+    template = "django_input_filter/input_filter.html"
 
     def lookups(self, request, model_admin):
         return ((),)
